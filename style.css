@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+.item {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+
+
+/* 1 - создаем грид контейнер */
+/* .container {
+  display: grid;
+  display: inline-grid;
+  grid-template-columns: 200px 300px 200px;
+  grid-template-rows: 300px 200px 100px;
+} */
+
+
+
+/* 2 - резиновость */
+/* .container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 300px 200px 100px;
+} */
+
+/* .item-5 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.item-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  z-index: 10;
+}
+
+.item-8 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+} */
+
+/* .item-5 {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+
+  grid-row: 1 / 4;
+} */
+
+
+
+
+
+/* 3 - Фракции */
+/* Если высота не задана для контейнера, то высота фракции вычисляется по высоте бОльшего элемента */
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 2fr 1fr;
+  height: 100vh;
+} */
+
+
+/* 4 - Функция minmax */
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 1fr) 1fr 1fr;
+  grid-template-rows: 3fr 2fr 1fr;
+} */
+
+/* 5 - min-content и max-content */
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr 1fr;
+  grid-template-rows: 3fr 2fr 1fr;
+} */
+
+/* 6 - fit-content - максимально возможное увеличение элементов. Меньше - можно. Больше - нельзя. */
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr fit-content(100px) 1fr 1fr;
+  grid-template-rows: 3fr 2fr 1fr;
+} */
